@@ -296,7 +296,3 @@ binary_classification,xor,4,x2,feature,NUMERIC,feature 2 of synthetic XOR data
 binary_classification,xor,5,x3,feature,NUMERIC,feature 3 of synthetic XOR data
 binary_classification,xor,6,x4,feature,NUMERIC,feature 4 of synthetic XOR data
 binary_classification,xor,7,x5,feature,NUMERIC,feature 5 of synthetic XOR data
-binary_classification,smoke_test_bc,1,id,id,TEXT,unique identifier 
-binary_classification,smoke_test_bc,2,color,feature,CATEGORICAL,color feature
-binary_classification,smoke_test_bc,3,number,feature,NUMERIC,number feature
-binary_classification,smoke_test_bc,4,target,target,CATEGORICAL,binary class (0 or 1)
