@@ -18,7 +18,6 @@ The list of datasets is as follows:
 | Mushroom Data Set                                 | Biosciences                    |    8,124     |    22    |            yes            |         yes         |
 | NBA binary classification dataset from Pycaret    | Sports                         |    1,294     |    21    |            no             |         no          |
 | Online Shoppers Purchasing Intention              | E-commerce                     |    12,330    |    17    |            yes            |         no          |
-| Smoke Test BC                                     | None (synthetic)               |     200      |    2     |            yes            |         yes         |
 | Spambase Data Set                                 | Technology / Internet Services |    4,601     |    57    |            no             |         no          |
 | Spiral Dataset                                    | None (synthetic)               |     250      |    2     |            no             |         no          |
 | Telco customer churn                              | Telecom                        |    7,043     |    20    |            no             |         yes         |
@@ -47,7 +46,7 @@ The list of datasets is as follows:
    python src/run_all.py
    ```
 
-   This will create the processed files in the `datasets/processed` folder. There are 5-folds created for each of the 30 datasets, resulting in 150 folders in total. Each folder contains the train, test, and test-key files (which are CSVs) along with the schema file (JSON).
+   This will create the processed files in the `datasets/processed` folder. There are 5-folds created for each of the 15 datasets, resulting in 75 folders in total. Each folder contains the train, test, and test-key files (which are CSVs) along with the schema file (JSON).
 
 ## Project Structure
 
